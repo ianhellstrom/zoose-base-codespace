@@ -1,0 +1,25 @@
+{
+    "name": "Zoose Quantum",
+    "image": "databaseline/zoose-quantum:4.4.0",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "none"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.black-formatter",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-powertoys",
+                "ms-vscode.references-view"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8888
+    ]
+}
