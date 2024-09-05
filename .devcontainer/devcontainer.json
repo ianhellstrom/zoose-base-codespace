@@ -1,5 +1,5 @@
 {
-    "name": "Zoose Quantum",
+    "name": "Zoose Base",
     "image": "databaseline/zoose-base:5.0.0",
     "features": {
         "ghcr.io/devcontainers/features/node:1": {
